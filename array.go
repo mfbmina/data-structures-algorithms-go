@@ -5,8 +5,9 @@ import "fmt"
 // Arrays can be considered a list of elements with a defined size.
 // It is not possible to change the size of an array later.
 //
-// To declare an array in Golang, you should the syntax is the following:
-// var VAR_NAME [SIZE]TYPE{DEFAULT_VALUES}
+// To declare an array in Golang, you can use the following syntaxes:
+// - var VAR_NAME [SIZE]TYPE{DEFAULT_VALUES}
+// - VAR_NAME := [SIZE]TYPE{DEFAULT_VALUES}
 // where:
 // - VAR_NAME: the name that you're gonna use for the variable.
 // - SIZE: how many elements that array will store.
