@@ -28,6 +28,14 @@ func main() {
   // Also, to provide the arguments to the functions you don't need to say the type.
   value := add(1, 1)
   fmt.Println("1 + 1 =", value)
+
+  x := 1
+  y := 2
+  // This is how we call a function with pointers.
+  // We can see the variables from main function got their value changed.
+  swap(&x, &y)
+  fmt.Println("x =", x)
+  fmt.Println("y =", y)
 }
 
 // We are declaring a function called `hi`, which will add two numbers.
@@ -41,4 +49,13 @@ func hi() {
 // It will always returns another `int`.
 func add(x int, y int) int {
   return x + y
+}
+
+// Functions can receive pointers as arguments.
+// This is really useful when we want to change values in variables from different contexts.
+// In this case, we are receive pointers for two integers and we are swaping their values.
+func swap(x *int, y *int) {
+  temp := *x
+  *x = *y
+  *y = temp
 }
