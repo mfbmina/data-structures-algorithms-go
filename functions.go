@@ -36,6 +36,10 @@ func main() {
   swap(&x, &y)
   fmt.Println("x =", x)
   fmt.Println("y =", y)
+
+  // Passing array to a function.
+  array := []int{1, 2, 3, 4, 5}
+  print_elements(array, 5)
 }
 
 // We are declaring a function called `hi`, which will add two numbers.
@@ -58,4 +62,11 @@ func swap(x *int, y *int) {
   temp := *x
   *x = *y
   *y = temp
+}
+
+// Functions can receive arrays as arguments.
+func print_elements(array []int, size int) {
+  for i := 0; i < size; i++ {
+    fmt.Println(array[i])
+  }
 }
