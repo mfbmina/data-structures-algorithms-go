@@ -29,9 +29,15 @@ The goal of this course is to learn and give examples of the most fundamental to
 
 With that in mind, Golang is a language with fewer abstractions when comparing to a lot of high-level languages at the same time it provides us key features like pointers. It also has a fresh syntax than C and C++.
 
-## Which topics have been covered?
+## How to follow the topics?
 
+I believe to get a good understanding, you can follow this order:
+
+- [Constants & variables](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/constants_and_variables.go)
+- [Stdin & stdout](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/stdin_stdout.go)
 - [Arrays](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/array.go)
-- [Functions](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/functions.go)
+- [Conditional structures]()
+- [Loops]()
 - [Pointers](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/pointers.go)
 - [Structs](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/structs.go)
+- [Functions](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/functions.go)
