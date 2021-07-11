@@ -37,7 +37,7 @@ I believe to get a good understanding, you can follow this order:
 - [Stdin & stdout](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/stdin_stdout.go)
 - [Arrays](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/array.go)
 - [Conditional statements](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/conditional_statements.go)
-- [Loops]()
+- [Loops](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/loops.go)
 - [Pointers](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/pointers.go)
 - [Structs](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/structs.go)
 - [Functions](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/functions.go)
