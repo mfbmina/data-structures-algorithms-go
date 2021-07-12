@@ -35,17 +35,17 @@ import "fmt"
 const hello = "Hello, World." // Defining a constant
 
 func main() {
-  var number int // Declaring an integer variable
-  number = 10 // Assign 10 to this variable
-  fmt.Println("Number =", number) // Printing number to the screen
-  // number = "maybe?" // if you un-comment, it will raise a compilation error.
+	var number int                  // Declaring an integer variable
+	number = 10                     // Assign 10 to this variable
+	fmt.Println("Number =", number) // Printing number to the screen
+	// number = "maybe?" // if you un-comment, it will raise a compilation error.
 
-  var name = "Matheus"  // Declaring a string variable and assigning a text to it.
-  fmt.Println(hello, "I'm", name) // Printing the constant hello and the variable name to the screen
-  // hello = "hm..." // if you un-comment, it will raise a compilation error.
-  name = "Mina"
-  fmt.Println(hello, "I'm", name) // Printing the constant hello and the variable name to the screen
+	var name = "Matheus"            // Declaring a string variable and assigning a text to it.
+	fmt.Println(hello, "I'm", name) // Printing the constant hello and the variable name to the screen
+	// hello = "hm..." // if you un-comment, it will raise a compilation error.
+	name = "Mina"
+	fmt.Println(hello, "I'm", name) // Printing the constant hello and the variable name to the screen
 
-  pi := 3.1415 // Declaring a variable called pi and assigning a value to it
-  fmt.Println("Pi =", pi) // Printing pi to the screen
+	pi := 3.1415            // Declaring a variable called pi and assigning a value to it
+	fmt.Println("Pi =", pi) // Printing pi to the screen
 }
