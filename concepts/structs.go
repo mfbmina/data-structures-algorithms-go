@@ -1,4 +1,4 @@
-package main
+package concepts
 
 import "fmt"
 
@@ -17,7 +17,7 @@ type Rectangle struct {
 	width  int
 }
 
-func main() {
+func Structs() {
 	var rectangle_1 Rectangle // Declaring a struct without any default value.
 	fmt.Println(rectangle_1)
 

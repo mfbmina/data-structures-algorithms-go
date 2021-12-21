@@ -1,4 +1,4 @@
-package main
+package concepts
 
 import "fmt"
 
@@ -34,7 +34,7 @@ import "fmt"
 
 const hello = "Hello, World." // Defining a constant
 
-func main() {
+func ConstantsAndVariables() {
 	var number int                  // Declaring an integer variable
 	number = 10                     // Assign 10 to this variable
 	fmt.Println("Number =", number) // Printing number to the screen

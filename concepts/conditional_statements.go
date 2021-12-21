@@ -1,4 +1,4 @@
-package main
+package concepts
 
 import "fmt"
 
@@ -20,7 +20,7 @@ import "fmt"
 // - `!X`: `!` is the operator `NOT`. It negates the value of the expression. If the expression is already false, it becomes true. `!false == true`.
 //
 // In Golang we have two ways of doing conditional statements: `if/else` and `switch/case`.
-func main() {
+func ConditionalStatements() {
 	var age int
 	var country string
 	fmt.Println("How old are you?")

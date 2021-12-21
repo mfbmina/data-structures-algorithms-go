@@ -33,11 +33,4 @@ With that in mind, Golang is a language with fewer abstractions when comparing t
 
 I believe to get a good understanding, you can follow this order:
 
-- [Constants & variables](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/constants_and_variables.go)
-- [Stdin & stdout](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/stdin_stdout.go)
-- [Arrays](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/array.go)
-- [Conditional statements](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/conditional_statements.go)
-- [Loops](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/loops.go)
-- [Pointers](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/pointers.go)
-- [Structs](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/structs.go)
-- [Functions](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/functions.go)
+- [Concepts](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/concepts)

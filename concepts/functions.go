@@ -1,4 +1,4 @@
-package main
+package concepts
 
 import "fmt"
 
@@ -20,7 +20,7 @@ import "fmt"
 //
 // To run a Go code, we always define a function called main, which will be executed when you call:
 // $ go run file.go
-func main() {
+func Functions() {
 	// This is how a function can be called.
 	hi()
 

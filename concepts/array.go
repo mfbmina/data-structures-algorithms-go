@@ -1,4 +1,4 @@
-package main
+package concepts
 
 import "fmt"
 
@@ -13,7 +13,7 @@ import "fmt"
 // - SIZE: how many elements that array will store.
 // - TYPE: any of default types in Go or structs that you've created.
 // - DEFAULT_VALUES: this is optional but it is used when you want to create an array with default values on it.
-func main() {
+func Arrays() {
 	var words [2]string // declaring an array called words with 2 elements.
 	words[0] = "Hello"  // assign the word "Hello" to the first element into the array
 	words[1] = "World"  // assign the word "World" to the second element into the array

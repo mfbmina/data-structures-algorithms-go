@@ -1,4 +1,4 @@
-package main
+package concepts
 
 import "fmt"
 
@@ -9,7 +9,7 @@ import "fmt"
 // 1. While loops (which sometimes can be infinite loops)
 // 2. For loops
 // 3. Range loops
-func main() {
+func Loops() {
 	array := []int{1, 2, 3, 4, 5}
 
 	// While loops are used to do some actions while the condition is true.
