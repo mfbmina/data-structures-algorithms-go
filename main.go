@@ -1,9 +1,11 @@
 package main
 
 import "github.com/mfbmina/data-structures-algorithms-go/concepts"
+import "github.com/mfbmina/data-structures-algorithms-go/recursion"
 
 func main() {
 	// conceptsExamples()
+	recursionExamples()
 }
 
 func conceptsExamples() {
@@ -15,4 +17,8 @@ func conceptsExamples() {
 	concepts.Pointers()
 	concepts.Structs()
 	concepts.Functions()
+}
+
+func recursionExamples() {
+	recursion.Basic(10)
 }
