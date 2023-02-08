@@ -34,4 +34,5 @@ With that in mind, Golang is a language with fewer abstractions when comparing t
 I believe to get a good understanding, you can follow this order:
 
 - [Concepts](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/concepts)
-- [Recursion](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/recursion) --- WIP
+- [Recursion](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/recursion)
+- [Sorting](https://github.com/mfbmina/data-structures-algorithms-go/blob/main/sorting)
