@@ -75,6 +75,13 @@ func TestInsertSort(t *testing.T) {
 	}
 }
 
+func TestHeapSort(t *testing.T) {
+	for _, sT := range sortTests {
+		r := HeapSort(sT.input)
+		assert.Equal(t, sT.expected, r)
+	}
+}
+
 func BenchmarkSorting(b *testing.B) {
 	slice := []int{10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, -1, -2, -3, -4, -5, -6, -7, -8, -9, -10}
 
@@ -85,6 +92,12 @@ func BenchmarkSorting(b *testing.B) {
 	})
 
 	b.Run("InsertSort", func(b *testing.B) {
+		for i := 0; i < b.N; i++ {
+			InsertSort(slice)
+		}
+	})
+
+	b.Run("HeapSort", func(b *testing.B) {
 		for i := 0; i < b.N; i++ {
 			InsertSort(slice)
 		}
